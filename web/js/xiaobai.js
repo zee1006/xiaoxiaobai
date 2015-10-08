@@ -6,6 +6,43 @@ $(document).ready(function(){
 		
     });
 	
+	$("#delete1").click(function(){
+        $("#id1").hide();
+		
+		
+    });
+	
+	$("#delete2").click(function(){
+        $("#id2").hide();
+		
+		
+    });
+	
+	$("#delete3").click(function(){
+        $("#id3").hide();
+		
+		
+    });
+	
+	$("#delete11").click(function(){
+        $("#id11").hide();
+		
+		
+    });
+	
+	$("#delete12").click(function(){
+        $("#id12").hide();
+		
+		
+    });
+	
+	$("#delete13").click(function(){
+        $("#id13").hide();
+		
+		
+    });
+	
+	
 	$(document).keypress(function(e) {
 		if(e.which == 13) {
 			if ($(':focus').attr("id") === 'Clothes_input')
