@@ -1,10 +1,5 @@
 <?php
 
-
-require('xiaobai_project/start.html');
-
-
-/*
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
@@ -28,5 +23,3 @@ $app->get('/', function() use($app) {
 });
 
 $app->run();
-
-*/
