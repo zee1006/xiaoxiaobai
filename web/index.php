@@ -1,5 +1,11 @@
 <?php
 
+
+require('index.html');
+exit;
+
+
+
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();

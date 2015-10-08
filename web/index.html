@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/xiaobai.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Xiaobai Haus</h1> 
+		<p>Das ist Xiaobai Haus. You can get everything you want.</p> 
+	</div>
+    <div class="row">
+	    <div class="col-sm-5">
+			<div class="panel panel-default">
+			    <div style="height: 55px" class="panel-heading">Category <button id="add_category"  type="button" class="btn btn-success pull-right">Add</button></div>
+			    <div class="panel-body">
+					<table class="table table-striped">
+					    <thead>
+						  <tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>Operator</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>1</td>
+							<td style="width: 130px"> <div id="Clothes">Clothes</div><input type="text" class="form-control" id="Clothes_input" ></td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  <tr>
+							<td>2</td>
+							<td>Schmuk</td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  <tr>
+							<td>3</td>
+							<td>Büro</td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  <tr id="add">
+							<td>4</td>
+							<td style="width: 130px"><div id="new_category">Clothes</div><input type="text" class="form-control" id="new_category_input" ></td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						</tbody>
+					</table>
+					
+			    </div>
+			</div>
+			<div class="panel panel-default">
+			    <div class="panel-heading">Farbe einfügen</div>
+			    <div class="panel-body">
+				
+			    </div>
+			</div>
+			<div class="panel panel-default">
+			    <div class="panel-heading">Material einfügen</div>
+			    <div class="panel-body">
+				Panel content
+			    </div>
+			</div>
+		</div>
+	    <div class="col-sm-7">
+			<div class="panel panel-default">
+			    <div class="panel-heading">Add Item</div>
+			    <div class="panel-body">
+					<table class="table table-striped">
+					    <thead>
+						  <tr>
+							<th>ID</th>
+							<th>Category</th>
+							<th>Color</th>
+							<th>Material</th>
+							<th>mini Picture</th>
+							<th>Operator</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>12345</td>
+							<td>Clothes </td>
+							<td>red</td>
+							<td>Flax</td>
+							<td><img src="img/images.jpg" ></td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  <tr>
+							<td>12346</td>
+							<td>Clothes </td>
+							<td>yellow</td>
+							<td>matton</td>
+							<td><img src="img/images.jpg" ></td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  <tr>
+							<td>12347</td>
+							<td>Clothes </td>
+							<td>blue</td>
+							<td>matton</td>
+							<td><img src="img/images.jpg" ></td>
+							<td><button type="button" class="btn btn-danger">Delete</button></td>
+						  </tr>
+						  
+						</tbody>
+					</table>
+				
+			    </div>
+			</div>
+	  
+	    </div>
+	  
+	</div>
+</div>
+
+</body>
+</html>
